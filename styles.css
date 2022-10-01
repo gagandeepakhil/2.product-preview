@@ -128,7 +128,7 @@ body{
         font-family: monospace;
     }
     .heading{
-        width:14rem;
+        width:12rem;
         font-size:larger;
     }
     .heading h2{
@@ -139,7 +139,7 @@ body{
         line-height: 1.5;
         font-size: medium;
         letter-spacing: 1.2px;
-        width:16rem;
+        width:14rem;
     }
     .price{
         display: flex;
