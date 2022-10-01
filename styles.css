@@ -87,12 +87,12 @@ body{
 .first{
     height: 25vh;
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:375px){
     body{
         background-color:hsl(30, 38%, 92%);
         display: flex;
         flex-direction: column;
-        max-width: 400px;
+        max-width: 375px;
         margin: auto;
     }
     .main{
