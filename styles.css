@@ -1,0 +1,184 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+}
+.mobile{
+    display: none;
+}
+.container img{
+    height: 28rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.right{
+    padding-left:1.3rem ;
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    justify-content: space-around;
+    padding-right: 1.3rem;
+}
+.dec{
+    font-family: monospace;
+    color: grey;
+}
+.heading{
+    width: 8rem;
+}
+.descr{
+    width: 12rem;
+    color:grey;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price-1{
+    padding-right: 15px;
+    color: green;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.price-2{
+    color: grey;
+    font-size: smaller;
+    text-decoration: line-through;
+}
+.button{
+    display:flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 2.5rem;
+
+}
+.button:hover{
+    display:flex;
+    background-color: rgb(2, 59, 2);
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.icon{
+    padding-right: 8px;
+}
+.text{
+    color: white;
+}
+.first,.main,.last{
+    flex-grow: 1;
+}
+.first{
+    height: 25vh;
+}
+@media screen and (max-width:550px){
+    body{
+        background-color:hsl(30, 38%, 92%);
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display:block;
+    }
+    .container img{
+        max-width:400px;
+        height:20%;
+        border-top-left-radius:8px ;
+        border-top-right-radius:8px ;
+    }
+    .container{
+        font-size: 0;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-left: 0.8rem;
+        border-bottom-right-radius:8px;
+        border-bottom-left-radius:8px;
+    }
+    .dec{
+        color: grey;
+        font-family: monospace;
+    }
+    .heading{
+        width:14rem;
+        font-size:larger;
+    }
+    .heading h2{
+        margin:0;
+    }
+    .descr{
+        color: grey;
+        line-height: 1.5;
+        font-size: medium;
+        letter-spacing: 1.2px;
+        width:18rem;
+    }
+    .price{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .price-1{
+        color: green;
+        font-size: xx-large;
+        padding-right: 15px;
+    }
+    .price-2{
+        color: grey;
+        text-decoration: line-through;
+        margin: auto 0;
+    }
+    .button{
+        display: flex;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        height: 3rem;
+        width:20rem;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+    .text{
+        color: white;
+        padding-left: 10px;
+    }
+    .button:hover{
+        background-color: rgba(2, 48, 2, 0.486);
+    }
+    .first{
+        height:20vh;
+    }
+    .first,.main,.last{
+        flex-grow: 1;
+    }
+    
+}
+    
